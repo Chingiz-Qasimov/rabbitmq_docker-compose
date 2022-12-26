@@ -4,7 +4,7 @@ services:
     rabbitmq:
         image: custom_rabbitmq_image
         hostname: rabbitmq_01
-		container_name: rabbitmq_01
+	container_name: rabbitmq_01
         volumes:
             - ./rabbitmq/etc/definitions.json:/etc/rabbitmq/default.json
             - ./rabbitmq/etc/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
